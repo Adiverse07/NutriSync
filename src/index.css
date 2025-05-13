@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-background text-white min-h-screen;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-500;
+}
+
+.sidebar-gradient {
+  background: linear-gradient(to bottom, rgba(15, 15, 26, 0.8), rgba(15, 15, 26, 0.95));
+  backdrop-filter: blur(10px);
+}
+
+.card-gradient {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(10px);
+}
+
+/* News‐slider scrollbar */
+.news-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.news-scroll::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+}
+.news-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.4);
+  border-radius: 4px;
+}
+/* Firefox */
+.news-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.4) rgba(255,255,255,0.1);
+}
+
+@keyframes neon-breathe {
+  0%, 100% {
+    text-shadow:
+      0 0 4px rgba(139,92,246,0.6),
+      0 0 8px rgba(139,92,246,0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 12px rgba(139,92,246,1),
+      0 0 24px rgba(139,92,246,0.8);
+  }
+}
+.animate-neon-breathe {
+  animation: neon-breathe 2.5s ease-in-out infinite;
+}
