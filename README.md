@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # NutriSync
 " NutriSync: Smartwatch-powered Health &amp; Nutrition Web Companion 🩺🥗 "
 NutriSync is a health companion web app that integrates a smartwatch with a nutrition-focused dashboard. 
@@ -50,4 +41,4 @@ Health Stats + Live News: Featuring top stories from the healthcare world via Ne
 5.Meal Plan Generator: Download your plan as a polished PDF via jsPDF 🧾
 
 6.BMI Dashboard and also Latest Health News Page( A cherry on top)
->>>>>>> e84d70bf7a90ee0af116e808732bf28ac5f764d7
+
