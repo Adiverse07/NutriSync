@@ -1,7 +1,7 @@
 import { google } from "googleapis";
 
-const CLIENT_ID = "586196275445-ahlt4mkuu4bk5gtgq0r5ip037gn0edot.apps.googleusercontent.com";
-const CLIENT_SECRET = "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";
+const CLIENT_ID = "enter your own";
+const CLIENT_SECRET = "enter your own";
 const REDIRECT_URI = "http://localhost:5173/googlefit/callback";
 
 const oauth2Client = new google.auth.OAuth2(
